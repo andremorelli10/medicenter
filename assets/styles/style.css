@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /*background-color: rgb(238, 9, 9);*/
+    width: 990px;
+   
+
+}
+
+.logo{
+display: flex;
+align-items: center;
+}
+
+.menu {
+
+}
