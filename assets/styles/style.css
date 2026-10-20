@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
 body {
@@ -84,19 +85,76 @@ nav a:hover {
 
 .banner_headline h1 {
     color: #FFFFFF;
-    font-size:50px;
+    font-size:70px;
     text-shadow:0px 1px 1px #000000;
-    width: 300px;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
 }
 
 .banner_headline h2 {
     color: #FFFFFF;
-    font-size:19px;
+    font-size:23px;
     text-shadow:0px 1px 1px #000000;
     width: 300px;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
 }
 
 .banner_options {
     height: 210px;
+    display: flex;
     
+    
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color:#FFFFFF;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #39aae1;''
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.tab {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #FFFFFF;
 }
